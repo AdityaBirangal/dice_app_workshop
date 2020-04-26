@@ -32,7 +32,13 @@ class _DicePageState extends State<DicePage> {
             style: TextStyle(fontSize: 30, color: Colors.white),
           ),
           Container(height: 20),
-          Image.asset("images/dice$MyNum.png")
+          FlatButton(
+            child: Image.asset("images/dice$MyNum.png"),
+            onPressed: () {
+              MyNum = 6;
+              setState(() {});
+            },
+          ),
         ],
       ),
     );
