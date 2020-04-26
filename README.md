@@ -1,6 +1,8 @@
-# diceappworkshop
+# DSC Dice App
 
 This is Dice app Developed in App Development Workshop
+
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/43909309/80280403-77b14c00-8721-11ea-815f-e14596466b55.gif)
 
 ## Getting Started
 
