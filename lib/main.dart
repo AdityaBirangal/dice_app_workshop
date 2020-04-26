@@ -4,7 +4,7 @@ void main() {
   return runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.deepPurple,
         appBar: AppBar(
           title: Text("DSC Dice App"),
         ),
@@ -20,14 +20,19 @@ class DicePage extends StatefulWidget {
 }
 
 class _DicePageState extends State<DicePage> {
+  int MyNum = 3;
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text("This is My First App"),
-          Image.asset("images/dice1.png")
+          Text(
+            "This is My First App",
+            style: TextStyle(fontSize: 30, color: Colors.white),
+          ),
+          Container(height: 20),
+          Image.asset("images/dice$MyNum.png")
         ],
       ),
     );
