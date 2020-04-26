@@ -2,6 +2,12 @@ import 'package:flutter/material.dart';
 
 void main() {
   return runApp(
-    MaterialApp(),
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("DSC Dice App"),
+        ),
+      ),
+    ),
   );
 }
