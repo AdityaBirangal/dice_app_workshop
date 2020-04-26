@@ -21,8 +21,13 @@ class DicePage extends StatefulWidget {
 class _DicePageState extends State<DicePage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text("This is My First App"),
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Text("This is My First App"),
+        ],
+      ),
     );
   }
 }
