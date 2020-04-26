@@ -4,6 +4,7 @@ void main() {
   return runApp(
     MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.purple,
         appBar: AppBar(
           title: Text("DSC Dice App"),
         ),
@@ -26,6 +27,7 @@ class _DicePageState extends State<DicePage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text("This is My First App"),
+          Image.asset("images/dice1.png")
         ],
       ),
     );
